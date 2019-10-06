@@ -11,4 +11,3 @@ urlpatterns = [
     path('n_detail/',views.n_detail,name="n_detail"),
     path('q_detail/',views.q_detail,name="q_detail"),
 ]
-

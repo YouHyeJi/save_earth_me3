@@ -49,12 +49,12 @@
 										<li><a href="{%url 'main'%}">HOME</a>
 										</li>
 										<!-- nav_board -->
-										<li><a href="#">board</a>
+										<li><a href="{%url 'n_board'%}">board</a>
 										    <ul>
 												<!-- nav_board_notice -->
-												<li><a href="{%url 'n_board'%}">notice</a></li>
+												<li><a href="#">notice</a></li>
 												<!-- nav_board_q&a -->
-												<li><a href="{%url 'q_board'%}">Q&A</a></li>
+												<li><a href="#">Q&A</a></li>
 											</ul>
 										</li>
 										<!-- nav_product -->
@@ -107,6 +107,7 @@
 		
 		
 		<!-- js모음 -->
+		<script src="{%static 'main/js/loading.js' %}"></script>
         <script src="{%static 'main/js/bootstrap.min.js' %}"></script>
         <script src="{%static 'main/js/headroom.min.js' %}"></script>
 		<script src="{%static 'main/js/imagesloaded.pkgd.min.js' %}"></script>
