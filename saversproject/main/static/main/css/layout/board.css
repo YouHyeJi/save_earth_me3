@@ -22,6 +22,10 @@ h1{
     font-size : 15px;
 }
 
+.page-item{
+    margin-bottom: 2em;
+}
+
 /* write.html에 대한 css */
 .write_container{
     display: flex;
